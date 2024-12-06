@@ -1,0 +1,15 @@
+{
+  "name": "actividad--1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
