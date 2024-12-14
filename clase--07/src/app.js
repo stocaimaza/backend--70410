@@ -102,4 +102,56 @@ app.listen(PUERTO, () => {
 })
 
 
+//4) PUT: Voy a recibir un parametro por id y voy a actualizar los datos del cliente: 
+
+app.put("/clientes/:id", (req, res) => {
+    let id = req.params.id; 
+    //Esto seria lo mismo: 
+    //const { id } = req.params; 
+    const { nombre, apellido } = req.body; 
+
+    //Ahora que tengo el ID voy a buscar el indice del cliente a actualizar: 
+
+    const clienteIndex = clientes.findIndex(cliente => cliente.id === id);
+    //Si lo encuentra me retorna el numero del indice del cliente buscado.
+    //Y si no lo encuentra? Me retorna un indice que no es posible: -1
+
+    if(clienteIndex !== -1) {
+        //Si el cliente existe y lo encontre, lo voy a actualizar: 
+        clientes[clienteIndex].nombre = nombre;
+        clientes[clienteIndex].apellido = apellido; 
+
+        //Verificamos por consola que todo se actualizo. 
+        console.log(clientes); 
+        res.send({status: "success", mensaje: "Cliente actualizado"}); 
+    } else {
+        //Si el cliente no se encuentra, devuelve un error: 
+        res.status(404).send({status: "error", mensaje: "Cliente no encontrado, escribi bieeen !!"}); 
+    }
+})
+
+//5) DELETE: 
+
+app.delete("/clientes/:id", (req, res) => {
+    let id = req.params.id; 
+
+    //Buscamos el indice: 
+
+    const clienteIndex = clientes.findIndex(cliente => cliente.id === id); 
+
+    if(clienteIndex !== -1) {
+        //Si el cliente existe lo elimino: 
+        clientes.splice(clienteIndex, 1); 
+        console.log(clientes);
+
+        res.send({status: "success", mensaje: "Cliente eliminado"});
+    } else {
+        res.status(404).send({status: "error", mensaje: "El cliente ni existe amigoooo"}); 
+    }
+})
+
+
+
+
+
 
