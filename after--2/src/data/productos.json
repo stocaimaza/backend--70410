@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Camiseta Deportiva",
+        "description": "Camiseta ligera y transpirable para entrenamiento intenso. Perfecta para el gimnasio o deportes al aire libre.",
+        "price": 25.99,
+        "img": "https://example.com/images/camiseta-deportiva.jpg",
+        "code": "CAM-1234",
+        "stock": 50
+    },
+    {
+        "id": 2,
+        "title": "Zapatillas Running",
+        "description": "Zapatillas diseñadas para brindar comodidad y soporte en largas distancias. Ideal para runners de todos los niveles.",
+        "price": 79.99,
+        "img": "https://example.com/images/zapatillas-running.jpg",
+        "code": "ZAP-5678",
+        "stock": 30
+    },
+    {
+        "id": 3,
+        "title": "Reloj Inteligente",
+        "description": "Reloj inteligente con funciones de monitoreo de salud, GPS y notificaciones inteligentes. Resistente al agua.",
+        "price": 149.99,
+        "img": "https://example.com/images/reloj-inteligente.jpg",
+        "code": "REL-91011",
+        "stock": 20
+    },
+    {
+        "id": 4,
+        "title": "Auriculares Bluetooth",
+        "description": "Auriculares inalámbricos con tecnología Bluetooth 5.0, ideales para escuchar música y hacer llamadas con calidad de sonido superior.",
+        "price": 59.99,
+        "img": "https://example.com/images/auriculares-bluetooth.jpg",
+        "code": "AUR-12345",
+        "stock": 40
+    },
+    {
+        "id": 5,
+        "title": "Botellas de Agua Reutilizables",
+        "description": "Botellas de acero inoxidable, perfectas para mantener la temperatura de tus bebidas por más tiempo.",
+        "price": 15.99,
+        "img": "https://example.com/images/botellas-agua.jpg",
+        "code": "BOT-67890",
+        "stock": 100
+    },
+    {
+        "id": 6,
+        "title": "Pantalones Cortos de Entrenamiento",
+        "description": "Pantalones cortos ligeros, con gran ventilación, ideales para entrenamientos y actividades deportivas en clima cálido.",
+        "price": 19.99,
+        "img": "https://example.com/images/pantalones-cortos.jpg",
+        "code": "PAN-11121",
+        "stock": 60
+    },
+    {
+        "id": 7,
+        "title": "Mochila Deportiva",
+        "description": "Mochila de gran capacidad, perfecta para llevar tus pertenencias al gimnasio o en actividades al aire libre.",
+        "price": 39.99,
+        "img": "https://example.com/images/mochila-deportiva.jpg",
+        "code": "MOC-12367",
+        "stock": 25
+    },
+    {
+        "id": 8,
+        "title": "Gafas de Sol Deportivas",
+        "description": "Gafas de sol deportivas con protección UV, diseñadas para actividades al aire libre y deportes de alto rendimiento.",
+        "price": 29.99,
+        "img": "https://example.com/images/gafas-sol-deportivas.jpg",
+        "code": "GAF-76543",
+        "stock": 45
+    },
+    {
+        "id": 9,
+        "title": "Guantes de Entrenamiento",
+        "description": "Guantes de entrenamiento ergonómicos, ideales para levantar pesas, con refuerzos en las palmas para mayor comodidad.",
+        "price": 24.99,
+        "img": "https://example.com/images/guantes-entrenamiento.jpg",
+        "code": "GUA-87654",
+        "stock": 55
+    },
+    {
+        "id": 10,
+        "title": "Malla Deportiva",
+        "description": "Malla deportiva de alta elasticidad, perfecta para entrenamientos de alta intensidad o carreras largas.",
+        "price": 34.99,
+        "img": "https://example.com/images/malla-deportiva.jpg",
+        "code": "MAL-54321",
+        "stock": 40
+    }
+]
