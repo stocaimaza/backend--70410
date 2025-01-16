@@ -1,0 +1,83 @@
+[
+    {
+      "nombre": "Juan Pérez",
+      "materia": "Matemáticas",
+      "edad": 35,
+      "email": "juan.perez@escuela.com",
+      "telefono": "555-1234",
+      "direccion": "Calle Ficticia 123, Ciudad"
+    },
+    {
+      "nombre": "María López",
+      "materia": "Lengua y Literatura",
+      "edad": 42,
+      "email": "maria.lopez@escuela.com",
+      "telefono": "555-5678",
+      "direccion": "Avenida Principal 456, Ciudad"
+    },
+    {
+      "nombre": "Carlos García",
+      "materia": "Historia",
+      "edad": 38,
+      "email": "carlos.garcia@escuela.com",
+      "telefono": "555-8765",
+      "direccion": "Calle Secundaria 789, Ciudad"
+    },
+    {
+      "nombre": "Ana Martínez",
+      "materia": "Ciencias",
+      "edad": 30,
+      "email": "ana.martinez@escuela.com",
+      "telefono": "555-3456",
+      "direccion": "Calle Tercera 101, Ciudad"
+    },
+    {
+      "nombre": "Luis Fernández",
+      "materia": "Geografía",
+      "edad": 45,
+      "email": "luis.fernandez@escuela.com",
+      "telefono": "555-6543",
+      "direccion": "Avenida de la Paz 202, Ciudad"
+    },
+    {
+      "nombre": "Elena Ruiz",
+      "materia": "Educación Física",
+      "edad": 29,
+      "email": "elena.ruiz@escuela.com",
+      "telefono": "555-4321",
+      "direccion": "Calle del Sol 303, Ciudad"
+    },
+    {
+      "nombre": "Ricardo Sánchez",
+      "materia": "Física",
+      "edad": 40,
+      "email": "ricardo.sanchez@escuela.com",
+      "telefono": "555-8761",
+      "direccion": "Calle del Mar 404, Ciudad"
+    },
+    {
+      "nombre": "Paola Díaz",
+      "materia": "Arte",
+      "edad": 34,
+      "email": "paola.diaz@escuela.com",
+      "telefono": "555-7890",
+      "direccion": "Avenida Libertad 505, Ciudad"
+    },
+    {
+      "nombre": "Javier Gómez",
+      "materia": "Química",
+      "edad": 39,
+      "email": "javier.gomez@escuela.com",
+      "telefono": "555-2345",
+      "direccion": "Calle Nueva 606, Ciudad"
+    },
+    {
+      "nombre": "Verónica Martínez",
+      "materia": "Inglés",
+      "edad": 33,
+      "email": "veronica.martinez@escuela.com",
+      "telefono": "555-1122",
+      "direccion": "Calle del Centro 707, Ciudad"
+    }
+  ]
+  
