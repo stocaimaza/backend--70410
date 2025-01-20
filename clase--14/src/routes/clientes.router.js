@@ -50,4 +50,4 @@ clientesRouter.delete("/:id", async (req, res) => {
     }
 })
 
-export default clientesRouter; 
+export default clientesRouter;
